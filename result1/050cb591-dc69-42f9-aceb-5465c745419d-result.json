@@ -1,0 +1,66 @@
+{
+  "name": "test_div[浮点数]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.7"
+    },
+    {
+      "name": "b",
+      "value": "0.3"
+    },
+    {
+      "name": "expect",
+      "value": "2.333"
+    }
+  ],
+  "start": 1607026873534,
+  "stop": 1607026873536,
+  "uuid": "b90f9123-59b5-448e-9af6-26a8dcb27f04",
+  "historyId": "e1c94ab402c180e48474348d4e90a9eb",
+  "testCaseId": "4a57f615ae930c12d705a9fc7a66b88d",
+  "fullName": "test_calc.TestCalc#test_div",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "除法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

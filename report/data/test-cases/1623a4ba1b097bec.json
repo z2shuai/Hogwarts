@@ -1,0 +1,167 @@
+{
+  "uid": "1623a4ba1b097bec",
+  "name": "test_mul1[a1-1-a]",
+  "fullName": "test_calc.TestCalc#test_mul1",
+  "historyId": "0ac2fcc894b07b92be334b2d45f23217",
+  "time": {
+    "start": 1607026873500,
+    "stop": 1607026873500,
+    "duration": 0
+  },
+  "status": "broken",
+  "statusMessage": "TypeError: type str doesn't define __round__ method",
+  "statusTrace": "self = <test_calc.TestCalc object at 0x1114723d0>, a = 'a1', b = 1, expect = 'a'\nget_calc = <calculator_dome.Calculator object at 0x11136dd00>\n\n    @pytest.mark.run(order=3)\n    @allure.story(\"乘法_异常\")\n    # @allure.attach('''<h3>反向用例</h3>''', \"描述\", attachment_type=allure.attachment_type.HTML)\n    @pytest.mark.parametrize([\"a\", \"b\", \"expect\"],\n                             [[\"a1\", 1, \"a\"], [1 + 1, 1 - 0, 2], [0.1 + 0.2, 0.1 + 0.5, 0.18]])\n    def test_mul1(self, a, b, expect, get_calc):\n>       pytest.assume(get_calc.mul(a, b) == expect)\n\ntest_calc.py:100: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <calculator_dome.Calculator object at 0x11136dd00>, a = 'a1', b = 1\n\n    def mul(self, a, b):\n        '''可以计算大数,浮点数,负数(精度保留3位)'''\n        c = a * b\n        if isinstance(c, int):\n            return c\n        else:\n>           return round(c, 3)\nE           TypeError: type str doesn't define __round__ method\n\ncalculator_dome.py:29: TypeError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "module_feature",
+      "time": {
+        "start": 1607026873309,
+        "stop": 1607026873309,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607026873309,
+        "stop": 1607026873309,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "module_feature::0",
+      "time": {
+        "start": 1607026873696,
+        "stop": 1607026873696,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1607026873695,
+        "stop": 1607026873695,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "乘法_异常"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=3)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'a1'"
+    },
+    {
+      "name": "b",
+      "value": "1"
+    },
+    {
+      "name": "expect",
+      "value": "'a'"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Test defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": [
+      "run(order=3)"
+    ]
+  },
+  "source": "1623a4ba1b097bec.json",
+  "parameterValues": [
+    "'a1'",
+    "1",
+    "'a'"
+  ]
+}

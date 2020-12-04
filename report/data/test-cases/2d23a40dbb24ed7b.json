@@ -1,0 +1,153 @@
+{
+  "uid": "2d23a40dbb24ed7b",
+  "name": "test_add1[0.30000000000000004-0.2-0.5]",
+  "fullName": "test_calc.TestCalc#test_add1",
+  "historyId": "144112c11e468d56e7aa614dcef937c5",
+  "time": {
+    "start": 1607026873691,
+    "stop": 1607026873694,
+    "duration": 3
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "module_feature",
+      "time": {
+        "start": 1607026873309,
+        "stop": 1607026873309,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607026873309,
+        "stop": 1607026873309,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "module_feature::0",
+      "time": {
+        "start": 1607026873696,
+        "stop": 1607026873696,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1607026873695,
+        "stop": 1607026873695,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "加法_异常case1"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "0.30000000000000004"
+    },
+    {
+      "name": "b",
+      "value": "0.2"
+    },
+    {
+      "name": "expect",
+      "value": "0.5"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "2d23a40dbb24ed7b.json",
+  "parameterValues": [
+    "0.30000000000000004",
+    "0.2",
+    "0.5"
+  ]
+}

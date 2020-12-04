@@ -1,0 +1,70 @@
+{
+  "name": "test_sub1[a1-1-a]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: unsupported operand type(s) for -: 'str' and 'str'",
+    "trace": "self = <test_calc.TestCalc object at 0x11135dcd0>, a = 'a1', b = '1', expect = 'a'\nget_calc = <calculator_dome.Calculator object at 0x11136dd00>\n\n    @pytest.mark.run(order=2)\n    @allure.story(\"减法_异常\")\n    # @allure.attach(\"<h3>减法:反向用例</h3>\", \"描述\", attachment_type=allure.attachment_type.HTML)\n    @pytest.mark.parametrize([\"a\", \"b\", \"expect\"],\n                             [[\"a1\", \"1\", \"a\"], [1 + 1, 1 - 0, 1], [0.1 + 0.2, 0.1 + 0.5, -0.3]])\n    def test_sub1(self, a, b, expect, get_calc):\n>       pytest.assume(get_calc.sub(a, b) == expect)\n\ntest_calc.py:84: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <calculator_dome.Calculator object at 0x11136dd00>, a = 'a1', b = '1'\n\n    def sub(self, a, b):\n        '''可以计算大数,浮点数,负数(精度保留3位)'''\n>       c = a - b\nE       TypeError: unsupported operand type(s) for -: 'str' and 'str'\n\ncalculator_dome.py:17: TypeError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'a1'"
+    },
+    {
+      "name": "b",
+      "value": "'1'"
+    },
+    {
+      "name": "expect",
+      "value": "'a'"
+    }
+  ],
+  "start": 1607026873419,
+  "stop": 1607026873419,
+  "uuid": "c8fb1f0d-04ce-45f8-8457-cb7797245e5c",
+  "historyId": "040328d70eaf42560cb1b9f848a26c5f",
+  "testCaseId": "b270fdf896a5f47d80f93f000fb02a3a",
+  "fullName": "test_calc.TestCalc#test_sub1",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "减法_异常"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=2)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

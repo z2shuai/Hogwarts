@@ -1,0 +1,608 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "测试计算器的类",
+      "children": [
+        {
+          "name": "加法_正常",
+          "children": [
+            {
+              "name": "test_add[大数]",
+              "uid": "80e47bb6c1871b99",
+              "parentUid": "6ef6627b4f9ea9e8ddc26799cff6f032",
+              "status": "passed",
+              "time": {
+                "start": 1607026873310,
+                "stop": 1607026873365,
+                "duration": 55
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "1000000",
+                "1000000000",
+                "1001000000"
+              ]
+            },
+            {
+              "name": "test_add[浮点数]",
+              "uid": "d46c5530edea0f0c",
+              "parentUid": "6ef6627b4f9ea9e8ddc26799cff6f032",
+              "status": "passed",
+              "time": {
+                "start": 1607026873369,
+                "stop": 1607026873371,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.1",
+                "0.2",
+                "0.3"
+              ]
+            },
+            {
+              "name": "test_add[负数]",
+              "uid": "36facee2cc7f0d56",
+              "parentUid": "6ef6627b4f9ea9e8ddc26799cff6f032",
+              "status": "passed",
+              "time": {
+                "start": 1607026873376,
+                "stop": 1607026873378,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "-1",
+                "-19",
+                "-20"
+              ]
+            }
+          ],
+          "uid": "6ef6627b4f9ea9e8ddc26799cff6f032"
+        },
+        {
+          "name": "加法_类型错误",
+          "children": [
+            {
+              "name": "test_add2[None-None-None]",
+              "uid": "1042237a4df9b6e0",
+              "parentUid": "ce38a9a9b2a13fe6327ba5547e5a9b4f",
+              "status": "passed",
+              "time": {
+                "start": 1607026873381,
+                "stop": 1607026873382,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "None",
+                "None",
+                "None"
+              ]
+            },
+            {
+              "name": "test_add2[a-1-a1]",
+              "uid": "b5de43ee298a7f7d",
+              "parentUid": "ce38a9a9b2a13fe6327ba5547e5a9b4f",
+              "status": "passed",
+              "time": {
+                "start": 1607026873385,
+                "stop": 1607026873385,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a'",
+                "1",
+                "'a1'"
+              ]
+            }
+          ],
+          "uid": "ce38a9a9b2a13fe6327ba5547e5a9b4f"
+        },
+        {
+          "name": "加法: 数据驱动",
+          "children": [
+            {
+              "name": "test_add3",
+              "uid": "f704b770bcff993a",
+              "parentUid": "c3e8418e086465edc75b64377d190cf4",
+              "status": "passed",
+              "time": {
+                "start": 1607026873388,
+                "stop": 1607026873395,
+                "duration": 7
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "c3e8418e086465edc75b64377d190cf4"
+        },
+        {
+          "name": "减法",
+          "children": [
+            {
+              "name": "test_sub[大数]",
+              "uid": "7aa08d5a14293c66",
+              "parentUid": "2fa40f4c8ec58fd13bce5d51b0aacb3e",
+              "status": "passed",
+              "time": {
+                "start": 1607026873397,
+                "stop": 1607026873400,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "1000000000",
+                "1000000",
+                "999000000"
+              ]
+            },
+            {
+              "name": "test_sub[浮点数]",
+              "uid": "df02e1e4a3a1b9d6",
+              "parentUid": "2fa40f4c8ec58fd13bce5d51b0aacb3e",
+              "status": "passed",
+              "time": {
+                "start": 1607026873404,
+                "stop": 1607026873407,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.3",
+                "0.1",
+                "0.2"
+              ]
+            },
+            {
+              "name": "test_sub[负数]",
+              "uid": "440d018d6d453726",
+              "parentUid": "2fa40f4c8ec58fd13bce5d51b0aacb3e",
+              "status": "passed",
+              "time": {
+                "start": 1607026873411,
+                "stop": 1607026873414,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "-1",
+                "-19",
+                "18"
+              ]
+            }
+          ],
+          "uid": "2fa40f4c8ec58fd13bce5d51b0aacb3e"
+        },
+        {
+          "name": "减法_异常",
+          "children": [
+            {
+              "name": "test_sub1[a1-1-a]",
+              "uid": "1d8b307dff794153",
+              "parentUid": "7be5445ce9f9aca91e3d58b95d374256",
+              "status": "broken",
+              "time": {
+                "start": 1607026873419,
+                "stop": 1607026873419,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a1'",
+                "'1'",
+                "'a'"
+              ]
+            },
+            {
+              "name": "test_sub1[2-1-1]",
+              "uid": "3b7252a3929afedb",
+              "parentUid": "7be5445ce9f9aca91e3d58b95d374256",
+              "status": "passed",
+              "time": {
+                "start": 1607026873444,
+                "stop": 1607026873448,
+                "duration": 4
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "2",
+                "1",
+                "1"
+              ]
+            },
+            {
+              "name": "test_sub1[0.30000000000000004-0.6--0.3]",
+              "uid": "9b1c780f9f2bd353",
+              "parentUid": "7be5445ce9f9aca91e3d58b95d374256",
+              "status": "passed",
+              "time": {
+                "start": 1607026873453,
+                "stop": 1607026873456,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.30000000000000004",
+                "0.6",
+                "-0.3"
+              ]
+            }
+          ],
+          "uid": "7be5445ce9f9aca91e3d58b95d374256"
+        },
+        {
+          "name": "乘法",
+          "children": [
+            {
+              "name": "test_mul[大数]",
+              "uid": "30aacf749fb20bf1",
+              "parentUid": "9992af14819dbb6c5d1a7d147a991255",
+              "status": "passed",
+              "time": {
+                "start": 1607026873461,
+                "stop": 1607026873466,
+                "duration": 5
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "100000",
+                "1000",
+                "100000000"
+              ]
+            },
+            {
+              "name": "test_mul[浮点数]",
+              "uid": "40e4901292187278",
+              "parentUid": "9992af14819dbb6c5d1a7d147a991255",
+              "status": "passed",
+              "time": {
+                "start": 1607026873472,
+                "stop": 1607026873475,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.1",
+                "0.2",
+                "0.02"
+              ]
+            },
+            {
+              "name": "test_mul[负数_正]",
+              "uid": "c4db1b43184a0c2f",
+              "parentUid": "9992af14819dbb6c5d1a7d147a991255",
+              "status": "passed",
+              "time": {
+                "start": 1607026873482,
+                "stop": 1607026873486,
+                "duration": 4
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "-1",
+                "-19",
+                "19"
+              ]
+            },
+            {
+              "name": "test_mul[负数_负]",
+              "uid": "f4133383d960a398",
+              "parentUid": "9992af14819dbb6c5d1a7d147a991255",
+              "status": "passed",
+              "time": {
+                "start": 1607026873492,
+                "stop": 1607026873495,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "-2",
+                "108",
+                "-216"
+              ]
+            }
+          ],
+          "uid": "9992af14819dbb6c5d1a7d147a991255"
+        },
+        {
+          "name": "乘法_异常",
+          "children": [
+            {
+              "name": "test_mul1[a1-1-a]",
+              "uid": "1623a4ba1b097bec",
+              "parentUid": "d3cb9b094393cbcd0422e101e7e804ce",
+              "status": "broken",
+              "time": {
+                "start": 1607026873500,
+                "stop": 1607026873500,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a1'",
+                "1",
+                "'a'"
+              ]
+            },
+            {
+              "name": "test_mul1[2-1-2]",
+              "uid": "7fd863c1d93eaad4",
+              "parentUid": "d3cb9b094393cbcd0422e101e7e804ce",
+              "status": "passed",
+              "time": {
+                "start": 1607026873514,
+                "stop": 1607026873517,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "2",
+                "1",
+                "2"
+              ]
+            },
+            {
+              "name": "test_mul1[0.30000000000000004-0.6-0.18]",
+              "uid": "cf5bbc68b0d022e6",
+              "parentUid": "d3cb9b094393cbcd0422e101e7e804ce",
+              "status": "passed",
+              "time": {
+                "start": 1607026873522,
+                "stop": 1607026873525,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.30000000000000004",
+                "0.6",
+                "0.18"
+              ]
+            }
+          ],
+          "uid": "d3cb9b094393cbcd0422e101e7e804ce"
+        },
+        {
+          "name": "除法",
+          "children": [
+            {
+              "name": "test_div[大数]",
+              "uid": "fbf1d19977992f7a",
+              "parentUid": "7b709e40dac6e42bffd80094874f3735",
+              "status": "passed",
+              "time": {
+                "start": 1607026873528,
+                "stop": 1607026873530,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "1000000000",
+                "1000000",
+                "1000"
+              ]
+            },
+            {
+              "name": "test_div[浮点数]",
+              "uid": "3be58bf759461ede",
+              "parentUid": "7b709e40dac6e42bffd80094874f3735",
+              "status": "passed",
+              "time": {
+                "start": 1607026873534,
+                "stop": 1607026873536,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.7",
+                "0.3",
+                "2.333"
+              ]
+            },
+            {
+              "name": "test_div[负数]",
+              "uid": "5cfbd69314ced037",
+              "parentUid": "7b709e40dac6e42bffd80094874f3735",
+              "status": "passed",
+              "time": {
+                "start": 1607026873539,
+                "stop": 1607026873541,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "-1",
+                "-19",
+                "0.052"
+              ]
+            },
+            {
+              "name": "test_div[结果=零]",
+              "uid": "c94f7529bf05cbe4",
+              "parentUid": "7b709e40dac6e42bffd80094874f3735",
+              "status": "passed",
+              "time": {
+                "start": 1607026873544,
+                "stop": 1607026873546,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "name": "test_div[除零]",
+              "uid": "ed3abc6191a03a19",
+              "parentUid": "7b709e40dac6e42bffd80094874f3735",
+              "status": "passed",
+              "time": {
+                "start": 1607026873550,
+                "stop": 1607026873552,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "1",
+                "0",
+                "'ZeroDivisionError'"
+              ]
+            }
+          ],
+          "uid": "7b709e40dac6e42bffd80094874f3735"
+        },
+        {
+          "name": "除法_类型错误",
+          "children": [
+            {
+              "name": "test_div1[None-None-None]",
+              "uid": "1225e78731903c55",
+              "parentUid": "8be5e4c4fa569dda467224d1ce83d80a",
+              "status": "passed",
+              "time": {
+                "start": 1607026873555,
+                "stop": 1607026873555,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "None",
+                "None",
+                "None"
+              ]
+            },
+            {
+              "name": "test_div1[a-1-a1]",
+              "uid": "3974da79a033a068",
+              "parentUid": "8be5e4c4fa569dda467224d1ce83d80a",
+              "status": "passed",
+              "time": {
+                "start": 1607026873562,
+                "stop": 1607026873562,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a'",
+                "1",
+                "'a1'"
+              ]
+            }
+          ],
+          "uid": "8be5e4c4fa569dda467224d1ce83d80a"
+        },
+        {
+          "name": "加法_异常case1",
+          "children": [
+            {
+              "name": "test_add1[a-b-c]",
+              "uid": "89b137a11bad3071",
+              "parentUid": "021c1d0435fddfde653ef0f060a3337e",
+              "status": "failed",
+              "time": {
+                "start": 1607026873570,
+                "stop": 1607026873576,
+                "duration": 6
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a'",
+                "'b'",
+                "'c'"
+              ]
+            },
+            {
+              "name": "test_add1[a-1-a1]",
+              "uid": "bac065104710002d",
+              "parentUid": "021c1d0435fddfde653ef0f060a3337e",
+              "status": "passed",
+              "time": {
+                "start": 1607026873676,
+                "stop": 1607026873679,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a'",
+                "'1'",
+                "'a1'"
+              ]
+            },
+            {
+              "name": "test_add1[2-2-4]",
+              "uid": "1e35cd949cbc72df",
+              "parentUid": "021c1d0435fddfde653ef0f060a3337e",
+              "status": "passed",
+              "time": {
+                "start": 1607026873685,
+                "stop": 1607026873687,
+                "duration": 2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "2",
+                "2",
+                "4"
+              ]
+            },
+            {
+              "name": "test_add1[0.30000000000000004-0.2-0.5]",
+              "uid": "2d23a40dbb24ed7b",
+              "parentUid": "021c1d0435fddfde653ef0f060a3337e",
+              "status": "passed",
+              "time": {
+                "start": 1607026873691,
+                "stop": 1607026873694,
+                "duration": 3
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "0.30000000000000004",
+                "0.2",
+                "0.5"
+              ]
+            }
+          ],
+          "uid": "021c1d0435fddfde653ef0f060a3337e"
+        }
+      ],
+      "uid": "78f7098d03b6617992f49479b090d2c3"
+    }
+  ]
+}

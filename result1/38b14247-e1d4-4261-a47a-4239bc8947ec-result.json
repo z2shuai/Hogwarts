@@ -1,0 +1,52 @@
+{
+  "name": "test_add3",
+  "status": "passed",
+  "start": 1607026873388,
+  "stop": 1607026873395,
+  "uuid": "aab365b5-b23b-4b83-8570-d17665ee57b9",
+  "historyId": "39855c5374ce9237f01f80de51b3fc82",
+  "testCaseId": "8a5471412141190bc7728cc33ef72193",
+  "fullName": "test_calc.TestCalc#test_add3",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "加法: 数据驱动"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

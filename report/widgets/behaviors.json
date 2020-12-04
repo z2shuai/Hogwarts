@@ -1,0 +1,17 @@
+{
+  "total": 1,
+  "items": [
+    {
+      "uid": "78f7098d03b6617992f49479b090d2c3",
+      "name": "测试计算器的类",
+      "statistic": {
+        "failed": 1,
+        "broken": 2,
+        "skipped": 0,
+        "passed": 7,
+        "unknown": 0,
+        "total": 10
+      }
+    }
+  ]
+}

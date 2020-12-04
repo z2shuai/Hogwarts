@@ -1,0 +1,62 @@
+{
+  "name": "test_add1[2-2-4]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "2"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    },
+    {
+      "name": "expect",
+      "value": "4"
+    }
+  ],
+  "start": 1607026873685,
+  "stop": 1607026873687,
+  "uuid": "59c0772c-b979-4617-b975-65904d035ebd",
+  "historyId": "a0bc35c8bce9211b9d2ff29fec3330fe",
+  "testCaseId": "7b49b0081d8b1e0a0d682102025665a9",
+  "fullName": "test_calc.TestCalc#test_add1",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "加法_异常case1"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

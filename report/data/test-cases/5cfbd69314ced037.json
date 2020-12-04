@@ -1,0 +1,159 @@
+{
+  "uid": "5cfbd69314ced037",
+  "name": "test_div[负数]",
+  "fullName": "test_calc.TestCalc#test_div",
+  "historyId": "cfe66fd901cd7cbe7473e4d5621a2d30",
+  "time": {
+    "start": 1607026873539,
+    "stop": 1607026873541,
+    "duration": 2
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "module_feature",
+      "time": {
+        "start": 1607026873309,
+        "stop": 1607026873309,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc",
+      "time": {
+        "start": 1607026873309,
+        "stop": 1607026873309,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "module_feature::0",
+      "time": {
+        "start": 1607026873696,
+        "stop": 1607026873696,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    },
+    {
+      "name": "get_calc::0",
+      "time": {
+        "start": 1607026873695,
+        "stop": 1607026873695,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false,
+      "hasContent": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "除法"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=4)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-1"
+    },
+    {
+      "name": "b",
+      "value": "-19"
+    },
+    {
+      "name": "expect",
+      "value": "0.052"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": [
+      "run(order=4)"
+    ]
+  },
+  "source": "5cfbd69314ced037.json",
+  "parameterValues": [
+    "-1",
+    "-19",
+    "0.052"
+  ]
+}

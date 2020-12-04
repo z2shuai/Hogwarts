@@ -1,0 +1,66 @@
+{
+  "name": "test_add1[a-b-c]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntest_calc.py:40: AssumptionFailure\n>>\tpytest.assume(get_calc.add(a, b) == expect)\nAssertionError: assert False",
+    "trace": "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               test_calc.py:40: AssumptionFailure\nE               >>\tpytest.assume(get_calc.add(a, b) == expect)\nE               AssertionError: assert False\n\n/usr/local/lib/python3.8/site-packages/six.py:702: FailedAssumption"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'a'"
+    },
+    {
+      "name": "b",
+      "value": "'b'"
+    },
+    {
+      "name": "expect",
+      "value": "'c'"
+    }
+  ],
+  "start": 1607026873570,
+  "stop": 1607026873576,
+  "uuid": "f8e7a8bc-e4bc-4de8-9926-989e9fbac816",
+  "historyId": "6b4525be6cb1dc7ad00b1bba05638754",
+  "testCaseId": "7b49b0081d8b1e0a0d682102025665a9",
+  "fullName": "test_calc.TestCalc#test_add1",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "加法_异常case1"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}

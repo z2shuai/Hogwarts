@@ -1,0 +1,66 @@
+{
+  "name": "test_add[负数]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-1"
+    },
+    {
+      "name": "b",
+      "value": "-19"
+    },
+    {
+      "name": "expect",
+      "value": "-20"
+    }
+  ],
+  "start": 1607026873376,
+  "stop": 1607026873378,
+  "uuid": "bd1502c4-c28a-42d1-8e70-4459d8748954",
+  "historyId": "6b59869835b2bc99430023c85fbdc6da",
+  "testCaseId": "a7b29b08300809261dc069b49da8543b",
+  "fullName": "test_calc.TestCalc#test_add",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "测试计算器的类"
+    },
+    {
+      "name": "story",
+      "value": "加法_正常"
+    },
+    {
+      "name": "tag",
+      "value": "run(order=1)"
+    },
+    {
+      "name": "suite",
+      "value": "test_calc"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCalc"
+    },
+    {
+      "name": "host",
+      "value": "FVFWF066HV2J.local"
+    },
+    {
+      "name": "thread",
+      "value": "37161-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_calc"
+    }
+  ]
+}
